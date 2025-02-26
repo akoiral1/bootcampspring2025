@@ -1,0 +1,59 @@
+/* DBC2CF
+A4243B
+315659
+6DAEDB
+72A98F */
+
+body {
+    background: #DBC2CF;
+    font-family:'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+}
+
+/*
+use #id .class
+*/
+#hero {
+    text-align: center;
+    /*Changes spacing in relation to text size. good for accessibility bc it will change based on the size of the text*/
+    padding: 5rem; 
+}
+
+/*
+will target every h3 inside hero no matter where it is, > will cause it to only do one level inside the div*/
+#hero > h3{
+    margin-top: 0;
+}
+
+#hero > h1{
+    margin-bottom: 0;
+}
+
+#hero img{
+    border-radius: 20px;
+}
+
+hr{
+    border-radius: 50px;
+    width: 50%;
+}
+
+.experience{
+    width: 80%;
+    margin: auto;
+    padding: 2rem;
+    border-width: 1px;
+    border-style: dashed;
+    margin-bottom: 2rem;
+    border-radius: 20px;
+}
+
+#experience-title{
+    text-align: center;
+}
+
+.experience-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
